@@ -6,35 +6,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <title>ভাই-বোন মডেল স্কুল, বগুড়া</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/toaster.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/toaster.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/style.css">
 </head>
 <body ng-app="teachListApp" ng-controller="teachListCtrl" ng-cloak>
+
     <div class="main-wrapper">
         <div class="content container-fluid m-t-15">
-            <!-- <div class="page-header">
-                <div class="row">
-                    <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                        <h5 class="text-uppercase">Teachers</h5>
-                    </div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 col-12">
-                        <ul class="list-inline breadcrumb float-right">
-                            <li class="list-inline-item"><a href="#">Home</a></li>
-                            <li class="list-inline-item"><a href="#">Teachers</a></li>
-                            <li class="list-inline-item"> All Teachers</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
             <div class="row">
                 <div class="col-sm-4 col-3"></div>
                 <div class="col-sm-8 col-9 text-right m-b-5">
-                    <a href="add-teacher.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i> Add Teacher</a>
+                    <a href="pages/add-teacher.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i> Add Teacher</a>
                 </div>
             </div>
             <div class="content-page">
@@ -104,20 +91,20 @@
             </div>
         </div>
     </div>
-    <div class="sidebar-overlay" data-reff=""></div>
-    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/angular.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/angular-datatables.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="assets/js/dataTables.bootstrap4.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
-    <script type="text/javascript" src="assets/js/select2.min.js"></script>
-    <script type="text/javascript" src="assets/js/moment.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript" src="assets/js/toaster.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
+
+    <script type="text/javascript" src="/preschool/assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/angular-datatables.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/select2.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/toaster.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/app.js"></script>
     <script type="text/javascript">
         var app = angular.module("teachListApp", ["datatables"]);
         app.controller("teachListCtrl", function ($scope, $http) {

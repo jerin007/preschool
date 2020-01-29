@@ -1,11 +1,9 @@
 {
 	"sidebar":[
 		{"id":0,"class":"menu-title","name":"Main","href":"","isshow":false,"items":[]},
-		{"id":1,"class":"fa fa-tachometer","name":"Dashboard","href":"dashboard.html","isshow":false,"items":[]},
-		{"id":2,"class":"fa fa-user","name":"Teachers","href":"teachers-list.html","isshow":false,"items":[]},
-		{"id":3,"class":"fa fa-user","name":"Students","href":"add-student.html",
-			"isshow":false,"items":[]
-		},
+		{"id":1,"class":"fa fa-tachometer","name":"Dashboard","href":"#","isshow":false,"items":[]},
+		{"id":2,"class":"fa fa-user","name":"Teachers","href":"#teacher","isshow":false,"items":[]},
+		{"id":3,"class":"fa fa-user","name":"Students","href":"#student","isshow":false,"items":[]},
 		{"id":4,"class":"fa fa-calendar","name":"Calender","href":"calendar.html","isshow":false,"items":[]},
 		{"id":5,"class":"fa fa-tasks","name":"Holiday","href":"holidays.html","isshow":false,"items":[]},
 		{"id":6,"class":"fa fa-book","name":"Accounts","href":"#",

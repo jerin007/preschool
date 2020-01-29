@@ -6,7 +6,8 @@
 
 	    private function __construct() {
 	        try {
-	            $db = new PDO('mysql:host=localhost;dbname=jjahanc1_preschool', 'jjahanc1_root', 'Pheq^VwvAVjE');
+	            // $db = new PDO('mysql:host=localhost;dbname=jjahanc1_preschool', 'jjahanc1_root', 'Pheq^VwvAVjE');
+	            $db = new PDO('mysql:host=localhost;dbname=preschool', 'root', '');
 			    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	        }catch(PDOException $e) {
 	            echo $e->getmessage();

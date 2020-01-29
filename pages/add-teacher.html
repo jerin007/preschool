@@ -6,12 +6,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <title>ভাই-বোন মডেল স্কুল, বগুড়া</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/toaster.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/toaster.css">
+    <link rel="stylesheet" type="text/css" href="/preschool/assets/css/style.css">
 </head>
 <body>
     <div class="main-wrapper" ng-app="teachApp" ng-controller="teacherCtrl" ng-cloak>
@@ -160,21 +160,21 @@
         </div>
     </div>
     <div class="sidebar-overlay" data-reff=""></div>
-    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/angular.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
-    <script type="text/javascript" src="assets/js/select2.min.js"></script>
-    <script type="text/javascript" src="assets/js/moment.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript" src="assets/js/toaster.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/select2.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/toaster.js"></script>
+    <script type="text/javascript" src="/preschool/assets/js/app.js"></script>
     <script type="text/javascript">
         var app = angular.module("teachApp", []);
         app.controller("teacherCtrl", function ($scope, $http) {
             $scope.id = getURLParameter('id');
-            var url = "php/teacher_data_service.php?service=";
+            var url = "../php/teacher_data_service.php?service=";
             $scope.gender = [ 
                 { name: 'Male', id: 1 },  
                 { name: 'Female', id: 2 },  
