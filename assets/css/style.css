@@ -203,7 +203,7 @@ div.dataTables_wrapper div.dataTables_paginate {text-align: right;}
 .table .badge {font-weight:700;}
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {border-color: transparent;}
 .nav-tabs .nav-link {border-radius:0;}
-.table.dataTable {border-collapse: collapse !important;margin-top: 50px !important;}
+.table.dataTable {border-collapse: collapse !important;margin-top: 15px !important;}
 textarea.form-control {height: auto;}
 .progress-example .progress {margin-bottom: 1.5rem;}
 .progress-xs {height: 4px;}

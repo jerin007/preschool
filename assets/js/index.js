@@ -31,8 +31,7 @@ app.controller("mainCtrl", function ($scope, $http) {
             $scope.parent_tree = parent_id;
             $scope.child = id;
         }
-        // href = href + "?lang=" + $scope.lang_code;
-        href = "dashboard.html" + "?lang=" + $scope.lang_code;
+        href = href + "?lang=" + $scope.lang_code;
         document.getElementById("div_main").innerHTML = "<object type=\"text/html\" data=\"" + href + "\" style=\"width:100%;height: calc(100vh - 67px);\"></object>";
     }
 })

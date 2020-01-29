@@ -2,21 +2,9 @@
 	"sidebar":[
 		{"id":0,"class":"menu-title","name":"Main","href":"","isshow":false,"items":[]},
 		{"id":1,"class":"fa fa-tachometer","name":"Dashboard","href":"dashboard.html","isshow":false,"items":[]},
-		{"id":2,"class":"fa fa-user","name":"Teachers","href":"#",
-			"isshow":false,"items":[
-				{"id":1,"class":"fa fa-circle-o","name":"All Teachers","href":"all-teachers.html"},
-				{"id":2,"class":"fa fa-circle-o","name":"Add Teacher","href":"add-teacher.html"},
-				{"id":3,"class":"fa fa-circle-o","name":"Edit Teacher","href":"edit-teacher.html"},
-				{"id":4,"class":"fa fa-circle-o","name":"About Teacher","href":"about-teacher.html"}
-			]
-		},
-		{"id":3,"class":"fa fa-user","name":"Students","href":"#",
-			"isshow":false,"items":[
-				{"id":1,"class":"fa fa-circle-o","name":"All Students","href":"all-students.html"},
-				{"id":2,"class":"fa fa-circle-o","name":"Add Student","href":"add-student.html"},
-				{"id":3,"class":"fa fa-circle-o","name":"Edit Student","href":"edit-student.html"},
-				{"id":4,"class":"fa fa-circle-o","name":"About Student","href":"about-student.html"}
-			]
+		{"id":2,"class":"fa fa-user","name":"Teachers","href":"teachers-list.html","isshow":false,"items":[]},
+		{"id":3,"class":"fa fa-user","name":"Students","href":"add-student.html",
+			"isshow":false,"items":[]
 		},
 		{"id":4,"class":"fa fa-calendar","name":"Calender","href":"calendar.html","isshow":false,"items":[]},
 		{"id":5,"class":"fa fa-tasks","name":"Holiday","href":"holidays.html","isshow":false,"items":[]},
